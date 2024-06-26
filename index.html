@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Paractice</title>
+    <style>
+        .main1-div {
+            margin: 10px;
+            border: 5px solid black;
+            border-style: double;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-div {
+            /* border: 1px solid black; */
+            width: 60%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .first-ul li {
+            list-style-type: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+            line-height: 0.8px;
+        }
+
+        /* ul{
+            line-height: 0.8px;
+        } */
+
+        .first-div {
+            /* border: 1px solid black; */
+
+        }
+
+        #thrd-li {
+            letter-spacing: 5px;
+
+        }
+
+        .nav-div {
+            /* margin: 0px 5px; */
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            width: 85%;
+            margin: auto;
+            word-spacing: 50px;
+        }
+
+        .nav-li {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .nav-li:hover {
+            color: red;
+            font-weight: bold;
+        }
+
+        .imgs {
+            width: 250px;
+            height: auto;
+            margin-top: 10px;
+        }
+        p{
+            width: 80%;
+            margin: auto;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main1-div">
+        <div class="main-div">
+            <div class="first-div">
+                <ul class="first-ul">
+                    <li>THE</li>
+                    <li id="scnd-li">
+                        <h1>ANALOG</h1>
+                    </li>
+                    <li id="thrd-li">SPECIALISTS</li>
+                </ul>
+            </div>
+            <div class="nav-div">
+                <nav>
+                    <li class="nav-li">HOME</li>
+                    <li class="nav-li">ABOUT</li>
+                    <li class="nav-li">CONTACT</li>
+                    <li class="nav-li">REPAIRS</li>
+                    <li class="nav-li">FORSALE</li>
+                </nav>
+            </div>
+            <div class="last-div">
+                <div>
+                    <img src="./p-pic3.jpg" alt="piano pic" class="imgs">
+                    <img src="./p-pic2.jpg" alt="piano pic" class="imgs">
+                    <img src="./p-pic1.jpg" alt="piano pic" class="imgs">
+                    <p >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima facilis sapiente earum
+                        suscipit laboriosam reprehenderit eaque ea vitae adipisci. Cum, sint velit architecto quis
+                        quisquam veniam doloremque impedit suscipit!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
